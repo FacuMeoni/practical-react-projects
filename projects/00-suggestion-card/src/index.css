@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  background: #111;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+
+.x-FollowCard-Container{
+  display: flex;
+  flex-direction: column;
+  background: #16181C;
+  height: auto;
+  border-radius: 20px;
+}
+
+.x-FollowCard-Container .card-div,  .title-container{
+  padding: 12px 16px;
+}
+
+
+.button-container{
+  padding: 16px;
+  text-align: start;
+  color: #1D97E9;
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-decoration: none;
+}
+
+.title{
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-div{
+  cursor: pointer;
+}
+
+.card-div:hover, .button-container:hover{
+ background: #4a4a4a1a;
+ transition: 0.3s ease all;
+}
