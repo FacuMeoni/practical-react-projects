@@ -19,11 +19,9 @@ function App() {
 
   return (
     <main>
-
       <DivFollower position={position} enabled={enabled}/>
-
       <button onClick={() => setEnabled(!enabled)}>
-          {textButton}
+        {textButton}
       </button>
     </main>
   )
